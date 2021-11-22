@@ -10,26 +10,26 @@ function NavBar(){
 		<Navbar className="navegacion">
 		<Container>
 		
-		<Link to='/encuestasVanessa/'>
+		<Link to='/en-questas/'>
 			<img src={logo} width='50px'/>
-			<Navbar.Brand href="/encuestasVanessa/">EnQestas</Navbar.Brand>
+			<Navbar.Brand href="/en-questas/">EnQestas</Navbar.Brand>
 		</Link>
 
 		<Nav className="mx-auto">
 
-		<Link to='/encuestasVanessa/encuesta'>
+		<Link to='/en-questas/encuesta'>
 			<Nav.Link href="#Encuesta">Quiz</Nav.Link>
 		</Link>
 
-		<Link to='/encuestasVanessa/register'>
+		<Link to='/en-questas/register'>
 			<Nav.Link href="#Register">Register</Nav.Link>
 		</Link>
 
-		<Link to='/encuestasVanessa/login'>
+		<Link to='/en-questas/login'>
 			<Nav.Link href="#Login">Login</Nav.Link>
 		</Link>
 
-		<Link to='/encuestasVanessa/logout'>
+		<Link to='/en-questas/logout'>
 			<Nav.Link href="#Logout">Logout</Nav.Link>
 		</Link>
 

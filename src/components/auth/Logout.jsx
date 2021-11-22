@@ -12,8 +12,8 @@ const LogOut = () => {
 		const loggedInUser = localStorage.getItem("usuario");
 		if (loggedInUser) {
 			localStorage.clear();
-			history.push('/encuestasVanessa/');
-			//<Redirect to="/encuestasVanessa/"/>
+			history.push('/en-questas/');
+			//<Redirect to="/en-questas/"/>
 		}
 	});
 

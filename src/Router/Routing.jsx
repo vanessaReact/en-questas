@@ -14,14 +14,14 @@ function Routing(){
     return (
 		<>
 			<Switch>
-				<Route path="/encuestasVanessa/" exact component={Home} />
-				<Route path="/encuestasVanessa/encuesta" exact component={Encuesta} />
-				<Route path="/encuestasVanessa/encuesta/seccion/:id" exact component={Seccion} />
-				<Route path="/encuestasVanessa/encuesta/seccion/preguntas/:id" exact component={Pregunta} />
-				<Route path="/encuestasVanessa/encuesta/seccion/preguntas/opciones/:id" exact component={Opcion} />
-				<Route path="/encuestasVanessa/login" exact component={Login} />
-				<Route path="/encuestasVanessa/logout" exact component={Logout} />
-				<Route path="/encuestasVanessa/register" exact component={Register} />
+				<Route path="/en-questas/" exact component={Home} />
+				<Route path="/en-questas/encuesta" exact component={Encuesta} />
+				<Route path="/en-questas/encuesta/seccion/:id" exact component={Seccion} />
+				<Route path="/en-questas/encuesta/seccion/preguntas/:id" exact component={Pregunta} />
+				<Route path="/en-questas/encuesta/seccion/preguntas/opciones/:id" exact component={Opcion} />
+				<Route path="/en-questas/login" exact component={Login} />
+				<Route path="/en-questas/logout" exact component={Logout} />
+				<Route path="/en-questas/register" exact component={Register} />
 			</Switch>
 		</>
     )

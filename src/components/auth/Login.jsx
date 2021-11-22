@@ -37,7 +37,7 @@ export default class Login extends React.Component {
 				this.setState({
 				errors: { 'usermsg': msg }
 			});
-			this.props.history.push("/encuestasVanessa/encuesta");
+			this.props.history.push("/en-questas/encuesta");
 			}).catch(function (error) {
 				if (error.response) {
 					console.log("here in cath erormsg")
