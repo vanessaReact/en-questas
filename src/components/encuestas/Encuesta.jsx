@@ -157,7 +157,7 @@ class Encuesta extends Component {
 										</Card.Text>
 									</Card.Body>
 									<Card.Body>
-										<Link to={`/encuesta/seccion/${encuesta.id}`}>
+										<Link to={`/en-questas/encuesta/seccion/${encuesta.id}`}>
 											<button className="btn btn-info"><FontAwesomeIcon icon={faPuzzlePiece} /></button>
 										</Link>
 										{"   "}

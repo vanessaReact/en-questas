@@ -148,7 +148,7 @@ class Pregunta extends Component {
 											return tipo.nombre
 									})}</td>
 									<td>
-										<Link to={`/encuesta/seccion/preguntas/opciones/${pregunta.id}`}>
+										<Link to={`en-questas/encuesta/seccion/preguntas/opciones/${pregunta.id}`}>
 											<button className="btn btn-info"><FontAwesomeIcon icon={faDiceD20} /></button>
 										</Link>
 										{"   "}
