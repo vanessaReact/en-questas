@@ -122,7 +122,8 @@ class Seccion extends Component {
 									<td>{seccion.id}</td>
 									<td>{seccion.nombre}</td>
 									<td>
-										<Link to={`en-questas/encuesta/seccion/preguntas/${seccion.id}`}>
+										<Link to={`/en-questas/encuesta/seccion/preguntas/${seccion.id}`}>
+
 											<button className="btn btn-info"><FontAwesomeIcon icon={faQuestionCircle} /></button>
 										</Link>
 										{"   "}
