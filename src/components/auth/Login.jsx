@@ -71,8 +71,13 @@ export default class Login extends React.Component {
 						<Form method="POST" onSubmit={this.handleSubmit}>
 							<div className="error-msg">{this.state.errors.usermsg}</div>
 							<Form.Group className="mb-3" controlId="formBasicInput">
+<<<<<<< HEAD
 								<Form.Label>Email</Form.Label>
 								<Form.Control type="text" name="nombre" placeholder="Ingresa tu email" onChange={this.handleChange} />
+=======
+								<Form.Label>Username</Form.Label>
+								<Form.Control type="text" name="nombre" placeholder="Ingresa tu Username" onChange={this.handleChange} />
+>>>>>>> 3883edd90f04cb48b084be986aba435f00672d94
 								<Form.Text className="text-muted">
 									We'll never share your email with anyone else.
 								</Form.Text>

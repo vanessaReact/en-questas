@@ -410,7 +410,10 @@ h1{
 
 
 /*___________________________DIV HOVER_________________________*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3883edd90f04cb48b084be986aba435f00672d94
 /*
 .grid > div:hover{
 	border: 1px solid black;
@@ -519,6 +522,7 @@ h1{
 	border: 1px solid #47739A;
 	box-shadow: 0 0  20px 0 #6D96BA;
 	padding: 1em;
+<<<<<<< HEAD
 }
 
 .boton-login{
@@ -555,6 +559,44 @@ h1{
 	width: auto;
 }
 
+=======
+}
+
+.boton-login{
+	position: relative;
+	top: 10%; 
+	left: 50%; 
+	transform: translateX(-50%) translateY(-50%);
+	border: 1.5px solid #3498D8;
+	padding: 10px 80px;
+	color: white;
+	font-weight: 700px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #3498D8;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 30px;
+}
+
+.boton-login:hover{
+	color: #3498D8;
+	background-color: transparent;
+}
+
+.container-formulario-login img{
+	display: block;
+	width: 100px;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+
+/*____________________AGREGAR ENCUESTA________________*/
+.App{
+	width: auto;
+}
+
+>>>>>>> 3883edd90f04cb48b084be986aba435f00672d94
 .btn-agregar-encuesta{
 	position: relative;
 	top: 1%; 

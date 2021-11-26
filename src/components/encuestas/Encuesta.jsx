@@ -139,7 +139,11 @@ class Encuesta extends Component {
 		return (
 			<div className="App">
 				<br /><br /><br />
+<<<<<<< HEAD
 					<button className="btn-agregar-encuesta" onClick={() => { this.setState({ form: null, tipoModal: 'insertar' }); this.modalInsertar() }}>Agregar encuesta</button>
+=======
+					<button className="btn-agregar-encuesta" onClick={() => { this.setState({ form: null, tipoModal: 'insertar' }); this.modalInsertar() }}>Agregar encuesta</button>	
+>>>>>>> 3883edd90f04cb48b084be986aba435f00672d94
 				<br /><br />
 				<Container >
 				<Row >
